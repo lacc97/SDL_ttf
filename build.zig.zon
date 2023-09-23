@@ -1,0 +1,14 @@
+.{
+    .name = "sdl2_ttf",
+    .version = "2.21.0",
+    .dependencies = .{
+        .freetype = .{
+            .url = "https://pkg.machengine.org/freetype/371d90bbaec285fd4f2bda42816ba90ca20c5b44.tar.gz",
+            .hash = "1220259c57c5ffd47c6696d161d454098d48b5fda661376d42be6401121dd6072a0a",
+        },
+        .harfbuzz = .{
+            .url = "https://pkg.machengine.org/harfbuzz/18cdecff3956b8f524a28ea2392ab4b4d5e3b7e3.tar.gz",
+            .hash = "1220b5d57b6c0d064b1924e8752879747c9c29ff1be231817d3f2743b84a34559e73",
+        },
+    },
+}
